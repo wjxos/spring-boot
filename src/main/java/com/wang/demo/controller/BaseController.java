@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableAutoConfiguration
 public class BaseController {
-	
+
+	/**
+	*Ìí¼Ó×¢ÊÍ
+	*2017/5/16
+	*/
 	@RequestMapping("/hello")
     @ResponseBody
     String home() {
